@@ -205,8 +205,3 @@ select designation,count(*) as number_employee from managers GROUP BY designatio
 ![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/3d70bf89-3d92-42cb-be88-66d7ef09ca32)
 
 
-select designation,count(*) as number_employee from managers GROUP BY designation ORDER BY number_employee DESC;
-```
-
-### OUTPUT:
-![image](https://github.com/dhivyapriyar/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119477552/7d30db0e-cd9e-4007-b28b-6dbc3a327c33)
