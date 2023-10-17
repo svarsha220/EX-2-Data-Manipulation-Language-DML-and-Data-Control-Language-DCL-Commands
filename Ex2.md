@@ -184,4 +184,5 @@ select designation,count(*) as number_employee from managers GROUP BY designatio
 ### OUTPUT:
 ![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/3d70bf89-3d92-42cb-be88-66d7ef09ca32)
 
-
+### RESULT:
+Thus the DML command was executed successfully
