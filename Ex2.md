@@ -111,33 +111,7 @@ update manager set salary=salary+(salary*20/100);
 ![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/b96590aa-285a-4f0e-9571-c1e55bfbd58c)
 
 
-
-### Q8)	List employees whose name either start or end with ‘s’.
-
-
-### QUERY:
-```
-select ename from managers where ename LIKE 'S%' OR ename LIKE '%S';
-```
-
-### OUTPUT:
-![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/d832afaa-7541-432a-a149-a8806d265cf1)
-
-
-### Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
-
-
-### QUERY:
-```
-select ename,designation,deptno,hiredate from managers order by hiredate ASC;
-```
-
-### OUTPUT:
-![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/2c703a98-b9ff-4e50-8324-e07267f0cbf5)
-
-
-
-### Q10) List the Details of Employees who's salary is more than 30000.
+### Q8) List the Details of Employees who's salary is more than 30000.
 
 
 ### QUERY:
@@ -151,7 +125,7 @@ select ename,designation,deptno,hiredate from managers order by hiredate ASC;
 
 
 
-### Q11)	display the no of rows present in the table
+### Q9)	display the no of rows present in the table
 
 
 ### QUERY:
@@ -165,7 +139,7 @@ select ename,designation,deptno,hiredate from managers order by hiredate ASC;
 
 
 
-### Q12) List the names of employees not belonging to dept no  10
+### Q10) List the names of employees not belonging to dept no  10
 
 
 ### QUERY:
@@ -177,7 +151,7 @@ select ename,designation,deptno,hiredate from managers order by hiredate ASC;
 ![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/04c4def0-76fb-481a-9ff5-6a8034f6b810)
 
 
-### Q13) Find number of rows in the table EMP
+### Q11) Find number of rows in the table EMP
 
 ### QUERY:
 ```
@@ -188,7 +162,7 @@ select count(*) as rownumber from manager;
 ![image](https://github.com/svarsha220/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/127709117/7996c608-b18b-4e89-833e-b7373db0f5e0)
 
 
-### Q14) Find maximum, minimum and average salary in EMP table.
+### Q12) Find maximum, minimum and average salary in EMP table.
 
 ### QUERY:
 ```
@@ -202,7 +176,7 @@ select count(*) as rownumber from manager;
 
 
 
-### Q15) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
+### Q13) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
 ### QUERY:
 ```
 select designation,count(*) as number_employee from managers GROUP BY designation ORDER BY number_employee DESC;
